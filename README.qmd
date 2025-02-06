@@ -16,7 +16,7 @@ When you click the **Render** button a document will be generated that includes 
 
 dotenv::load_dot_env(file = ".env")
 
-devtools::install_github("albertrapp/tidychatmodels")
+#devtools::install_github("albertrapp/tidychatmodels")
 library(tidychatmodels)
 
 create_chat(
