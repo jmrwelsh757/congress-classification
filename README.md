@@ -20,19 +20,7 @@ dotenv::load_dot_env(file = ".env")
     Warning in readLines(file): incomplete final line found on '.env'
 
 ``` r
-devtools::install_github("albertrapp/tidychatmodels")
-```
-
-    WARNING: Rtools is required to build R packages, but no version of Rtools compatible with R 4.4.1 was found. (Only the following incompatible version(s) of Rtools were found: 4.0)
-
-    Please download and install Rtools 4.4 from https://cran.r-project.org/bin/windows/Rtools/.
-
-    Using GitHub PAT from the git credential store.
-
-    Skipping install of 'tidychatmodels' from a github remote, the SHA1 (72fb616c) has not changed since last install.
-      Use `force = TRUE` to force installation
-
-``` r
+#devtools::install_github("albertrapp/tidychatmodels")
 library(tidychatmodels)
 
 create_chat(
