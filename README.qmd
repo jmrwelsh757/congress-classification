@@ -22,7 +22,8 @@ library(tidychatmodels)
 create_chat(
   vendor = "openai",
   api_key = Sys.getenv("GPT_APIKEY")
-)
+) %>% 
+  add_model("gpt-4o-mini")
 
 
 

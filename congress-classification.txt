@@ -1,0 +1,9 @@
+congress-classification
+
+Go to govinfo api collections/CHRG/2018-01-28T20:18:10Z?
+
+then put in pageSize= and api_key= and congress= and offsetMark=*
+extract JSON and pull downloads then zipLink
+add ?api_key= and then download.file from that url
+the pdf folder in the directory that is downloaded has a pdf with the name of the doc
+load that and have AI read it
