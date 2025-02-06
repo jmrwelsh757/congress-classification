@@ -1,7 +1,7 @@
 ---
 title: "Classifying U.S. Congress with AI"
 author: "Joseph Welsh"
-format: html
+format: gfm
 ---
 
 ## Quarto
